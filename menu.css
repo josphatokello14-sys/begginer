@@ -25,6 +25,7 @@
     position: relative;
     z-index:5;
     margin-top:33%;
+    width:100%;
 }
 .project1{
     border: solid brown 2px;
