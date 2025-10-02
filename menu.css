@@ -33,7 +33,7 @@
     border-radius: 8px;
     position:relative;
     margin-right:30%;
-    /*padding:1.5%;*/
+    padding:1.5%;
     margin-left:1.5%;
     text-decoration: none;
     background-color:brown;
@@ -45,7 +45,7 @@
     border-radius: 8px;
     position: relative;
     margin-right: 18.5%;
-    /*padding:1.5%;*/
+    padding:1.5%;
     text-decoration: none;
     font-weight: 1000;
     background-color: brown;
@@ -55,7 +55,8 @@
     border: solid brown 2px;
     border-radius: 8px;
     position: relative;
-    /*padding:1.5%;*/
+    padding:1.5%;
+    text-decoration:none;
     background-color: brown;
     color:white;
     font-weight: 900;
