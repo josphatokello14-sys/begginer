@@ -1,0 +1,65 @@
+
+
+.gradebox {
+    border:solid black 2px;
+    width:50%;
+    position:relative;
+    margin-left:25%;
+    padding:20px;
+    text-align: center;
+    background-color: rgb(245, 113, 113);
+}
+input{
+    height: 30px;
+    position:relative;
+    margin-right:20px;
+}
+#graderesult {
+    border:solid black 2px;
+    padding:15px 15px 10px 15px;
+    font-size: 50px;
+    margin-left: 20px;
+    color:blue;
+    font-weight:900;
+    background-color: yellow;
+}
+
+
+h1 {
+    color:black;
+    position:relative;
+    margin-bottom:50px;
+    font-size:280%;
+}
+button{
+    position:relative;
+    margin-bottom: 5px;
+    height:50px;
+    width:150px;
+    border-radius:15px;
+    background-color:red;
+}
+#comment{
+    position:relative;
+    margin:80px;
+    font-style:italic ;
+    color:green;
+    font-size: 30px;
+}
+a{
+    border:solid brown 2px;
+    border-radius: 8px;
+    padding:20px;
+    text-decoration:none;
+    background-color: brown;
+    color:white;
+    font-weight:900;
+    position: relative;
+}
+.two{
+    margin-right:1000px;
+    margin-left:15px;
+}
+body{
+    background-color:rgb(248, 135, 135) ;
+}

@@ -1,0 +1,61 @@
+.heading1{
+    font-size: 7rem;
+    text-align: center;
+    position: relative;
+    padding:50px;
+    font-weight:100;
+}
+.heading2{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 100;
+}
+.background{
+    position:absolute;
+    color:rgba(5, 5, 5, 0.459);
+    z-index:1;
+    pointer-events: none;
+    top: 0;
+    left:0;
+    bottom:0 ;
+    width:100% auto;
+    background-color:rgb(146, 144, 144);
+}
+.foreground{
+    position: relative;
+    z-index:5;
+    margin-top:400px;
+}
+.project1{
+    border: solid brown 2px;
+    border-radius: 8px;
+    position:relative;
+    margin-right:380px;
+    padding:20px;
+    margin-left:20px;
+    text-decoration: none;
+    background-color:brown;
+    color:white;
+    font-weight: 900;
+}
+.project2{
+    border: solid brown 2px;
+    border-radius: 8px;
+    position: relative;
+    margin-right: 250px;
+    padding:20px;
+    text-decoration: none;
+    font-weight: 1000;
+    background-color: brown;
+    color:white;
+}
+.project3{
+    border: solid brown 2px;
+    border-radius: 8px;
+    position: relative;
+    padding:20px;
+    text-decoration: none;
+    background-color: brown;
+    color:white;
+    font-weight: 900;
+}

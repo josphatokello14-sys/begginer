@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .center{
+                border: solid black 2px;
+                text-align: center;
+                width: 50%;
+                margin-left:25%;
+                background-color:lightblue;
+            }
+            a{
+                border:solid brown 2px;
+                padding:20px;
+                background-color: brown;
+                color:white;
+                font-weight: 900;
+                text-decoration: none;
+                border-radius:8px;
+            }
+            div{
+                position:relative;
+                margin-top:50px;
+            }
+            .one{
+                position: relative;
+                margin-right:1000px;
+                margin-left: 20px;
+            }
+            body{
+                background-color: rgb(152, 227, 252);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style ="text-align:center">This is my project</h1>
+    <div class ="center">
+        <h1 style="color:blue">ENTER YOUR DATE OF BIRTH TO FIND YOUR REAL AGE.</h1>
+        <input  id = "enter" style="margin:20px" type="number" placeholder="date of birth here"></input><br>
+        <button  onclick = "agee()" style="color:red;margin: 20px;">CLICK HERE TO SEE YOUR REAL AGE</button>
+        <br>
+        <h1 id = "text" style="color:green;text-align: center;">YOUR AGE IS-------------</h1>
+        <h1 style = "text-align:center"> <i>created and designed by Josphat Okello</i></h1>
+    </div>
+    <div>
+    <a class="one"  href ="grade.html">NEXT PROJECT</a>
+    <a href ="index.html">GO TO MENU</a>
+    </div>
+    <script src = "age.js"></script>
+    </body>
+</html>
